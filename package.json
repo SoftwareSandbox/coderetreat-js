@@ -1,24 +1,23 @@
 {
-  "name": "gdcr16-js",
+  "name": "coderetreat-js",
   "version": "1.0.0",
-  "description": "Global Day of Code Retreat 2016 - JavaScript",
+  "description": "Code Retreat - JavaScript",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SoftwareSandbox/gdcr16-js.git"
+    "url": "git+https://github.com/SoftwareSandbox/coderetreat-js.git"
   },
   "author": "Tim Schraepen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SoftwareSandbox/gdcr16-js/issues"
+    "url": "https://github.com/SoftwareSandbox/coderetreat-js/issues"
   },
-  "homepage": "https://github.com/SoftwareSandbox/gdcr16-js#readme",
+  "homepage": "https://github.com/SoftwareSandbox/coderetreat-js#readme",
   "dependencies": {
-    "bignumber.js": "^2.4.0",
-    "lodash": "^4.14.0"
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.0.0"
+    "mocha": "^3.2.0"
   },
   "scripts": {
     "test": "mocha --watch --reporter=spec ./tests/*Test.js"
